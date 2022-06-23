@@ -5,32 +5,84 @@
     <title>ポートフォリオサイト</title>
     <link href="index.css" rel="stylesheet" type="text/css">
     <style>
-      li {
-    color: black;
-    background-color: #99cc00;
-    width: 300px;
-      }
+      nav {
+    width: 100%;
+    height: 70px;
+    background-color: darkgray;
+    padding-top: 5px;
+    box-sizing: border-box;
+  }
+  ul.menu {
+    display: flex;
+  }
+  li.menu {
+    list-style: none;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+  }
+
+  footer{
+    text-align: center;
+  }
     </style>
   </head>
   <body>
-    <h1>第1回グループ課題</h1>
-    <p>授業に出席したメンバー全員がこのページを表示できればミッションクリア</p>
 
+    <nav>
+      <ul class="menu">
+          <li class="menu"><a href="#profile">Profile</a></li>
+          <li class="menu"><a href="#skill">Skill</a></li>
+          <li class="menu"><a href="#field">Field</a></li>
+          <li class="menu"><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
+
+    <h1 id="profile">プロフィール</h1>
     <ul>
       <li>
-        1人目出席者:酒巻 琢磨
+        後藤大和
       </li>
       <li>
-        2人目出席者:後藤 大和
+        武蔵野大学データサイエンス学部所属
       </li>
       <li>
-        3人目出席者:祇園 和歌子
+        趣味：ゲーム、動画制作
       </li>
       <li>
-        4人目出席者:高夘 崚成
+        目標：ゲームを作れるようになる
+      </li>
+    </ul>
+
+    <h1 id="skill">スキル</h1>
+    <ul>
+      <li>
+        Python(勉強中)
       </li>
       <li>
-        5人目出席者:塚本 隼
+        JavaScript(勉強中)
+      </li>
+      <li>
+        C#(勉強中)
+      </li>
+      <li>
+        動画編集
+      </li>
+    </ul>
+
+    <h1 id="field">フィールド</h1>
+    <ul>
+      <li>
+        データサイエンスの学習
+      </li>
+      <li>
+        動画編集の学習
+      </li>
+      <li>
+        ゲーム制作の学習
       </li>
     </ul>
     <footer>©︎2021 Yamato Goto</footer>
