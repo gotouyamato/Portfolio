@@ -2,7 +2,12 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ポートフォリオサイト</title>
+    <!-- Bootstrap -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
     <link href="index.css" rel="stylesheet" type="text/css">
     <style>
       nav {
@@ -28,68 +33,92 @@
   footer{
     text-align: center;
   }
+  body {
+		padding-top: 50px;
+		background-color: lightgray;
+	}
+	.starter-template {
+		padding: 40px 15px;
+		background-color: white;
+	}
+
+img {
+width:25%;
+max-width: 25%;
+height: auto;
+}
     </style>
   </head>
   <body>
+    <div class ="container">
+      <div class="starter-template">
 
-    <nav>
-      <ul class="menu">
-          <li class="menu"><a href="#profile">Profile</a></li>
-          <li class="menu"><a href="#skill">Skill</a></li>
-          <li class="menu"><a href="#field">Field</a></li>
-          <!-- <li class="menu"><a href="#contact">Contact</a></li> -->
-      </ul>
-  </nav>
+        <nav>
+          <ul class="menu">
+              <li class="menu"><a href="#profile">Profile</a></li>
+              <li class="menu"><a href="#skill">Skill</a></li>
+              <li class="menu"><a href="#field">Field</a></li>
+              <!-- <li class="menu"><a href="#contact">Contact</a></li> -->
+          </ul>
+        </nav>
 
-    <h1 id="profile">プロフィール</h1>
-    <p>プロフィール画像</p>
-    <img id="img" src="profile_img.jpg" width="240" height="320" align="right">>
-    <!-- <img src="profile_img.jpg" height="400" width="300" alt="プロフィール画像" border="0" align="right"> -->
-    <ul>
-      <li>
-        後藤大和
-      </li>
-      <li>
-        武蔵野大学データサイエンス学部所属
-      </li>
-      <li>
-        趣味：ゲーム、動画制作
-      </li>
-      <li>
-        目標：ゲームを作れるようになる
-      </li>
-    </ul>
+        <h1 id="profile">プロフィール</h1>
+        <p>プロフィール画像</p>
+            <img id="img" src="profile_img.jpg" width="240" height="320" align="right">>
+            <img src="computer_tokui_boy.png">
+            <img src="computer_girl.png">
+        <!-- <img src="profile_img.jpg" height="400" width="300" alt="プロフィール画像" border="0" align="right"> -->
+        <ul>
+          <li>
+           後藤大和
+          </li>
+          <li>
+            武蔵野大学データサイエンス学部所属
+          </li>
+          <li>
+            趣味：ゲーム、動画制作
+          </li>
+          <li>
+            目標：ゲームを作れるようになる
+          </li>
+        </ul>
 
-    <h1 id="skill">スキル</h1>
-    <ul>
-      <li>
-        Python(勉強中)
-      </li>
-      <li>
-        JavaScript(勉強中)
-      </li>
-      <li>
-        C#(勉強中)
-      </li>
-      <li>
-        動画編集
-      </li>
-    </ul>
+        <h1 id="skill">スキル</h1>
+        <ul>
+          <li>
+            Python(勉強中)
+          </li>
+          <li>
+            JavaScript(勉強中)
+          </li>
+          <li>
+            C#(勉強中)
+          </li>
+          <li>
+            動画編集
+          </li>
+        </ul>
 
-    <h1 id="field">フィールド</h1>
-    <ul>
-      <li>
-        データサイエンスの学習
-      </li>
-      <li>
-        動画編集の学習
-      </li>
-      <li>
-        ゲーム制作の学習
-      </li>
-    </ul>
+        <h1 id="field">フィールド</h1>
+        <ul>
+          <li>
+            データサイエンスの学習
+          </li>
+          <li>
+            動画編集の学習
+          </li>
+          <li>
+            ゲーム制作の学習
+          </li>
+        </ul>
 
 
-    <footer>©︎2021 Yamato Goto</footer>
+        <footer>©︎2021 Yamato Goto</footer>
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   </body>
 </html>
