@@ -17,6 +17,9 @@
     padding-top: 5px;
     box-sizing: border-box;
     }
+    ul{
+      min-width:130px;
+    }
     ul.menu {
       display: flex;
     }
@@ -55,6 +58,10 @@
     padding-top: 10px;
     padding-bottom: 20px;
     }
+    .slide{
+      border: solid;
+      background-color:#ffffe0;
+    }
     .g-slide{
     position: relative;
     overflow: hidden;
@@ -92,15 +99,14 @@
         </nav>
 
         <div class="col-xs-3">
-          <h1 id="profile">プロフィール</h1>
-          <p>プロフィール画像</p>
+          <h2 id="profile">プロフィール</h2>
           <!-- <img src="profile_img.jpg" height="400" width="300" alt="プロフィール画像" border="0" align="right"> -->
          <ul>
             <li>
-            後藤大和
+            名前：後藤大和
             </li>
             <li>
-            武蔵野大学データサイエンス学部所属
+            所属：武蔵野大学データサイエンス学部
             </li>
             <li>
             趣味：ゲーム、動画制作
@@ -112,7 +118,7 @@
         </div>
 
         <div class="col-xs-3">
-          <h1 id="skill">スキル</h1>
+          <h2 id="skill">スキル<br><br></h2>
           <ul>
             <li>
               Python(勉強中)
@@ -131,7 +137,7 @@
         </div>
         
         <div class="col-xs-3">
-          <h1 id="field">フィールド</h1>
+          <h2 id="field">フィールド</h2>
           <ul>
             <li>
               データサイエンスの学習
@@ -154,32 +160,17 @@
           <div class="Contents">
             <div class="slide">
               <p id="contentstitle">
-                <!-- <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br> -->
                 <h1 id="contents">コンテンツ</h1>
-                <h3 style="background-color:#fdffa2;">未来想像PJ 映像に合わせたSE✖︎BGM自動生成システム</h3><br>
-                <p>"リアルタイムの映像で物体を認識した際にその物体に適した音声を再生するシステムの開発</p>
+                <h2 style="background-color:#fdffa2;">未来想像PJ 映像に合わせたSE✖︎BGM自動生成システム</h2><br>
+                <p><b>リアルタイムの映像で物体を認識した際にその物体に適した音声を再生するシステムの開発</b></p>
                 <h3>＜skill:html,JavaScript＞</h3>
               </p>
               <div class="g-slide">
                 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRNudqoap8oLjJdw-byhJiEvG97ziXPN22lDZNn8t8cJT51I3x1ObJN4CaEELBMcENBFyFZgsePujWC/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
               </div>
               <p id="contentstitle">
-                <h3 style="background-color:#fdffa2;">AI-tech 最終課題　ドラゴンクエストXモンスター検索システム</h3><br>
-                <p>データベースにモンスターの名前、系統、獲得経験値、獲得Goldを記載しそれぞれの属性で検索できるシステムの開発</p>
+                <h2 style="background-color:#fdffa2;">AI-tech 最終課題　ドラゴンクエストXモンスター検索システム</h2><br>
+                <p><b>データベースにモンスターの名前、系統、獲得経験値、獲得Goldを記載しそれぞれの属性で検索できるシステムの開発</b></p>
                 <h3>＜skill:sql,Python,html,Flask＞</h3>
               </p>
               <div class="g-slide">
@@ -187,8 +178,8 @@
               </div>
 
               <p id="contentstitle">
-                <h3 style="background-color:#fdffa2;">"MD演習2 最終課題　暗い時にクリックすると蝋燭が光るシステム"</h3><br>
-                <p>"processingを用いてインタラクティブ生のある作品の制作を行った。</p>
+                <h2 style="background-color:#fdffa2;">"MD演習2 最終課題　暗い時にクリックすると蝋燭が光るシステム"</h2><br>
+                <p><b>processingを用いてインタラクティブ生のある作品の制作を行った</b></p>
                 <h3>＜skill:Python,Processing＞</h3>
               </p>
               <div style="text-align: center;">
