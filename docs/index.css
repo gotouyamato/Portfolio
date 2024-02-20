@@ -124,3 +124,6 @@ background: #000;/*背景を黒で表示*/
     font-family: "Arial", sans-serif;
     font-weight: bold;
 }
+.worksname{
+    text-align: center;
+}
