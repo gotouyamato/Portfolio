@@ -38,12 +38,11 @@ li.menu {
     font-size: 30px
 }
 .profile{
-    /* 枠線の太さを3pxにする */
-    border-width: 1px;
-    /* 枠線の種類を実線にする */
-    border-style: solid;
-    /* 枠線の色を黒にする */
-    border-color: black;
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    background-color:#f6faee;/*背景色*/
+    border-left: solid 10px #6b8e23;/*左ライン*/
+    color:#000000;/*文字色*/
   }
 
 .title{
@@ -125,5 +124,13 @@ background: #000;/*背景を黒で表示*/
     font-weight: bold;
 }
 .worksname{
+    
+
     text-align: center;
+    padding: 1em 1.5em;
+    margin: 2em 0;
+    background-color:#f4f9ff;/*背景色*/
+    border:1px solid #84c1ff;/*枠線*/
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);/*影*/
+    color:#000000;/*文字色*/
 }
